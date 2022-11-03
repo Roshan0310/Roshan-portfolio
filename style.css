@@ -99,7 +99,7 @@ header ul li:hover{
   .about-me{
     background-color:#2B2922;
     width: 100%;
-    height: 300px;
+    height: 200px;
   }
 
   .main-part{
@@ -113,6 +113,23 @@ header ul li:hover{
     text-align: center;
     text-decoration: underline;
     padding-top: 20px;
+  }
+
+  .about-me h3{
+    color: #f3eeee;
+    text-align: center;
+    padding-top: 20px;
+    text-decoration: underline;
+    font-size: 30px;
+  }
+
+  .about-me p{
+    color: aliceblue;
+    text-align: justify;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 10px;
+    line-height: 30px;
   }
 
   .skill{
@@ -181,6 +198,7 @@ header ul li:hover{
     padding: 5px;
     border-radius: 6px;
     font-weight: bold;
+    cursor: pointer;
   }
 
   footer{
@@ -248,4 +266,18 @@ header ul li:hover{
   text-decoration: none;
   margin: 5px 2px;
   border-radius: 50px;
+}
+
+.last{
+  width: 100%;
+  height: 20px;
+  background-color: #2B2922;
+}
+
+#arrow{
+  width: 50px;
+  height: 50px;
+  float: right;
+  margin-right: 43px;
+  margin-top: -50px;
 }

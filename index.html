@@ -1,109 +1,219 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="google-site-verification" content="ykPSswDric0wYMVhUS3wf7APd7c15r4AE8cG-ILtRtI" />
-    <link rel="stylesheet" href="style.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Roshan Portfolio</title>
+	<!---custom css link---->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 
-    <!-- Montserrat Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap"
-        rel="stylesheet" />
+	 <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>ROSHAN K</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
 </head>
-
 <body>
-    <!-- Header section start -->
-    <header>
-        <nav>
-            <a class="Logo" href="#/#container">ROSHAN K</a>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#about-">About</a></li>
-                <li><a href="#skill">Skills</a></li>
-                <li><a href="#form1">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <!-- Header section End -->
-    <!-- Introduction Section Start -->
-    <div class="container">
-        <div class="about" id="#about">
-            <h1>HELLO I AM ROSHAN.K</h1>
-            <br>
-            <P class="cont">MERN STACK DEVELOPER... </P>
-        </div>
-        <div class="me">
-            <img id="me1" src="images/me.jpg" alt="">
-        </div>
-    </div>
-    <!-- Introduction section End -->
-    <div id="about-" class="about-me">
-        <h3>About me</h3>
-        <p>I'am a self taught web developer from kerala exploring new technologies in webdeveloping, I used to be really
-            insecure about my self education.Iam definitely always learning. But there's many ways to learn. There are
-            many ways to always be a learner. </p>
-    </div>
 
-    <!-- Main part Start -->
-    <div id="skill" class="main-part">
-        <h1>Qualifications & Skills</h1>
-        <div class="skill">
-            <div class="box">
-                <h2 id="b-heading">Educational Qualifications</h2>
-                <p id="para">I'am a BCA graduate from bangalore University in the year 2022</p>
-            </div>
-            <div class="box">
-                <h2 id="b-heading">Technical skills</h2>
-                <p id="para">Iam familiar with C and C++ and Java and learned the basic OOPS concepts. And now I am
-                    focusing on web developement i studied HTML,CSS,JAVASCRIPT and CSS framework BOOTSTRAP so far and
-                    going forward in my journy to become a full stack developer.</p>
-            </div>
-            <div class="box">
-                <h2 id="b-heading">Experience</h2>
-                <p id="para">Currently iam pursuing FULL STACK DEVELOPEMENT Course form ICTAK Kerala in this I will
-                    study MONGODB,EXPRESS-JS,REACT,NODE-JS </p>
-            </div>
-        </div>
-        <!-- Mainpart End -->
-        <!-- ContactUs Form -->
-        <div class="form">
-            <form action="" id="form1">
-                <h3>Get in Touch</h3>
-                <input id="form-element" type="text" placeholder="Your name"><br><br>
-                <input id="form-element" type="email" placeholder="Email id"><br><br>
-                <input id="form-element" type="text" placeholder="Contact number"><br><br>
-                <textarea name="" id="element" cols="20" rows="5" placeholder="Enter Your Message"></textarea><br><br>
-                <button id="btn">Submit</button>
-            </form>
-        </div>
-        <div class="social-icons">
-            <h3>Connect via social medias...</h3>
-            <a href="https://www.instagram.com/ro_sh__an?r=nametag" class="fa fa-instagram"></a>
-            <a href="https://www.linkedin.com/in/roshan-k-468288231/" class="fa fa-linkedin"></a>
-            <a href="https://github.com/Roshan0310" class="fa fa-github"></a>
-            <a href="#" class="fa fa-twitter"></a>
-            <a href="mailto:roshanrosh0310@gmail.com" class="fa fa-google"></a>
+	<!----header design--->
+	<header>
+		<a href="#" class="logo">Roshan</a>
 
+		<ul class="navlist">
+			<li><a href="#home" class="active">Home</a></li>
+			<li><a href="#about">About Me</a></li>
+			<li><a href="#services">Services</a></li>
+			<li><a href="#portfolio">Portfolio</a></li>
+			<li><a href="#contact">Contact Me</a></li>
+		</ul>
 
-        </div>
-        <!-- ContactUs Form End -->
-        <!-- move up arrow -->
-    </div>
-    <div class="last">
-        <a href=""><img id="arrow" src="images/kindpng_7652086.png" alt=""></a>
-    </div>
-    <footer>
-        <h3>Copyright@2022</h3>
-    </footer>
+		<div class="bx bx-menu" id="menu-icon">
+			
+		</div>
+	</header>
 
+	<!----home section design--->
+	<section class="home" id="home">
+		<div class="home-text">
+			<div class="slide">
+				<span class="one">Hello</span>
+				<span class="two">I'm</span>
+			</div>
+			<h1>ROSHAN K</h1>
+			<h3>FULL STACK<span> DEVELOPER</span></h3>
+			<p>I used to be really insecure about my self education<br> Iam definitely always learning. But there's many ways to learn. <br> There are many ways to always be a learner.</p>
+			<div class="button">
+				<a href="https://www.linkedin.com/in/roshan-k-468288231/" class="btn">Know more</a>
+	
+			</div>
+		</div>
+	</section>
+
+	<!----about section design--->
+	<section class="about" id="about">
+		<div class="about-img">
+			<img src="img/me.jpg">
+		</div>
+
+		<div class="about-text">
+			<h2>About Me</h2>
+			<h4>Full Stack <span>(MERN)</span> Developer</h4>
+			<p>I am a self learned web developer focusing on web development. I am currently focusing on mern stack
+                and i have experience with JavaScript,CSS,Node.js and express.js.</p>
+			<a href="https://www.linkedin.com/in/roshan-k-468288231/" class="btn">More About</a>
+		</div>
+	</section>
+
+	<!----service section design--->
+	<section class="services" id="services">
+		<div class="main-text">
+			<p>I am Expert In</p>
+			<h2><span>My</span> Services</h2>
+		</div>
+
+		<div class="services-content">
+			<div class="box">
+				<div class="s-icons">
+					<i class='bx bx-mobile-alt' ></i>
+				</div>
+				<h3>Fronten Developer</h3>
+				<p>I am a passionate frontend developer who can build crative webpages. I have experience working with HTML,CSS,Bootstrap,javascript          .</p>
+				<a href="https://www.linkedin.com/in/roshan-k-468288231/" class="read">Read More</a>
+			</div>
+
+			<div class="box">
+				<div class="s-icons">
+					<i class='bx bx-code-alt' ></i>
+				</div>
+				<h3>Backend Developer</h3>
+				<p>I am also a backend developer  who can write restfull api in the server side and have experience  working Node.js,Express.js and Mongodb  </p>
+				<a href="https://www.linkedin.com/in/roshan-k-468288231/" class="read">Read More</a>
+			</div>
+
+			<div class="box">
+				<div class="s-icons">
+					<i class='bx bx-edit-alt' ></i>
+				</div>
+				<h3>Full Stack Developer</h3>
+				<p>I can do both frontend and backend and create a full stack web application , currently I am focusing on the MERN Stack</p>
+				<a href="https://www.linkedin.com/in/roshan-k-468288231/" class="read">Read More</a>
+			</div>
+
+		</div>
+	</section>
+
+	<!----portfolio section design--->
+	<section class="portfolio" id="portfolio">
+		<div class="main-text">
+			<p>Portfolio</p>
+			<h2><span>Latest</span> Project</h2>
+		</div>
+
+		<div class="portfolio-content">
+			<div class="row">
+				<img src="img/Crud.jpg">
+				<div class="layer">
+					<h5>CRUD Operations with React.Js</h5>
+					<p>React app that can perform Basic Crud operations such as READ,WRITE,UPDATE and DELETE</p>
+					<a href="https://github.com/Roshan0310/CRUD-Operations-With-React"><i class='bx bx-link-external' ></i></a>
+				</div>
+			</div>
+
+			<div class="row">
+				<img src="img/Kerala-Tour.jpg">
+				<div class="layer">
+					<h5>Kerala Tourism Website</h5>
+					<p>Kerala Tourism Website done with HTML,CSS ,Bootstrap and javascript</p>
+					<a href="https://github.com/Roshan0310/kerala-tourism1"><i class='bx bx-link-external' ></i></a>
+				</div>
+			</div>
+
+			<div class="row">
+				<img src="img/Picsart_23-01-18_15-27-57-442.jpg">
+				<div class="layer">
+					<h5>Employee Management Backend</h5>
+					<p>Employee app is basic web application for doing CRUD operations using node.js,express.js and mongodb.</p>
+					<a href="https://github.com/Roshan0310/Employee-App"><i class='bx bx-link-external' ></i></a>
+				</div>
+			</div>
+
+			<div class="row">
+				<img src="img/studentbackend.jpg">
+				<div class="layer">
+					<h5>Blog Website Backend</h5>
+					<p>The Project is a full Stack blog website the backend has done by using Node.js,express and mongodb.</p>
+					<a href="#"><i class='bx bx-link-external' ></i></a>
+				</div>
+			</div>
+
+			<div class="row">
+				<img src="img/todo.jpg">
+				<div class="layer">
+					<h5>To-Do-List</h5>
+					<p>A to-do-list webapp developed with JavaScript, Html , CSS and Bootstrap.</p>
+					<a href="https://github.com/Roshan0310/To-do-list"><i class='bx bx-link-external' ></i></a>
+				</div>
+			</div>
+
+			<div class="row">
+				<img src="img/Picsart_23-01-18_15-43-48-089.jpg">
+				<div class="layer">
+					<h5>Hospital server</h5>
+					<p>Simple Node and express.js backed</p>
+					<a href="https://github.com/Roshan0310/HospitalServer_Node_Express"><i class='bx bx-link-external' ></i></a>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<!----contact section design--->
+	<section class="contact" id="contact">
+		<div class="contact-text">
+			<h2>Contact <span>Me!</span></h2>
+			<h4></h4>
+			<p>Get in touch with social medias</p>
+			<div class="list">
+				<li><a href="#">+91 9946807533</a></li>
+				<li><a href="#">roshanrosh0310@gmail.com</a></li>
+		
+			</div>
+
+			<div class="contact-icons">
+				<a href="https://github.com/Roshan0310"><i class='bx bxl-github' ></i></a>
+				<a href="https://www.instagram.com/ro_sh__an?r=nametag"><i class='bx bxl-instagram-alt' ></i></a>
+                <a href="https://www.linkedin.com/in/roshan-k-468288231/"><i class='bx bxl-linkedin' ></i></a>
+				<a href="#"><i class='bx bxl-twitter' ></i></a>
+				
+			</div>
+		</div>
+
+		<div class="contact-form">
+			<form action="">
+				<input type="name" placeholder="Your Name" required>
+				<input type="email" placeholder="Your Email Address" required>
+				<input type="" placeholder="Your Mobile Number" required>
+				<textarea name="" id="" cols="35" rows="10" placeholder="How Can I Help You" required></textarea>
+				<input type="submit" value="Send Message" class="submit" required>
+			</form>
+		</div>
+	</section>
+
+	<!----end section design--->
+	<section class="end">
+		<div class="last-text">
+			<p>Copyright © 2023 by Roshan.k</p>
+		</div>
+
+		<div class="top">
+			<a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+		</div>
+	</section>
+
+	<!---custom js link--->
+	<script type="text/javascript" src="js/script.js"></script>
 
 </body>
-
 </html>
